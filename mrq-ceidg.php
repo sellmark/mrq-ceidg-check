@@ -34,7 +34,7 @@ function mrq_ceidg_ajax_endpoint_number_one(){
     }
 	
     $base_url = 'https://dane.biznes.gov.pl/api/ceidg/v1/firmy?query&status=AKTYWNY';
-    $tokenJWT = 'eyJraWQiOiJjZWlkZyIsImFsZyI6IkhTNTEyIn0.eyJnaXZlbl9uYW1lIjoiTWFyZWsiLCJwZXNlbCI6Ijg4MDkwNzExMjE1IiwiaWF0IjoxNjE5MjQ0OTI2LCJmYW1pbHlfbmFtZSI6IkJ1Z2EiLCJjbGllbnRfaWQiOiJVU0VSLTg4MDkwNzExMjE1LU1BUkVLLUJVR0EifQ.lcJsqFEmfSRsbjqR0xwVCzGFTxgePGLTlUw_RAMUHmn56RJjV5hBLNlqCfXcAxzPaiJqJGzT4MfiOdwa5UGQlQ';
+    $tokenJWT = 'YOUR_API_KEY';
 
     $final_url = $base_url . '&nip=' . $numer_nip;
     $authorization = 'Authorization: Bearer '.$tokenJWT;
